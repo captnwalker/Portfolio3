@@ -1,6 +1,6 @@
 # Steve Walker's Portfolio
 
->Showcase Steve Walker's Projects
+>Showcase of Steve Walker's Projects
 
 ### Link to Live Site
 
@@ -8,9 +8,9 @@
 
 ### Screenshots of this Project
 
-![Portfolio](https://raw.github.com/captnwalker/Portfolio3/master/screenshot/Screenshot1.png "Portfolio")
+![Portfolio](https://raw.github.com/captnwalker/Portfolio3/master/screenshot/screenshot1.png "Portfolio")
 
-![Portfolio](https://raw.github.com/captnwalker/Portfolio3/master/screenshot/Screenshot2.png "Portfolio")
+![Portfolio](https://raw.github.com/captnwalker/Portfolio3/master/screenshot/screenshot2.png "Portfolio")
 
 ### Technologies Utilized
 
