@@ -4,7 +4,7 @@
 
 ### Link to Live Site
 
-[Steve Walker's Portfolio](https://captnwalker.github.io/Portfolio2/ "Portfolio")
+[Steve Walker's Portfolio](https://captnwalker.github.io/Portfolio3/ "Portfolio")
 
 ### Screenshot of this Project
 
