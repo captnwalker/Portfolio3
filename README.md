@@ -6,9 +6,11 @@
 
 [Steve Walker's Portfolio](https://captnwalker.github.io/Portfolio3/ "Portfolio")
 
-### Screenshot of this Project
+### Screenshots of this Project
 
-![Portfolio](https://www.dropbox.com/s/zk8el13noswqr88/screenshot.gif?dl=0 "Portfolio")
+![Portfolio](https://raw.github.com/captnwalker/Portfolio3/master/screenshot/Screenshot1.png "Portfolio")
+
+![Portfolio](https://raw.github.com/captnwalker/Portfolio3/master/screenshot/Screenshot2.png "Portfolio")
 
 ### Technologies Utilized
 
