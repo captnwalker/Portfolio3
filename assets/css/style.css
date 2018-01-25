@@ -4,6 +4,15 @@
     /* --bg-url: url('https://image.ibb.co/m56Czw/designer.jpg'); */
     --button-hover-color: rgba(161, 11, 11, 0.3);
   }
+
+  /* OctoCat transformation effect */
+#portrait:hover {
+  /* transform: scale(5.25); */
+  transition: 0.5s;
+  width: 150px;
+  height: 150px;
+  z-index: 500;
+  }
   
   html, body {
     padding:0;
