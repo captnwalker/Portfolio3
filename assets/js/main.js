@@ -5,6 +5,7 @@ $(document).ready(function () {
 // if (screen.width <= 799) {
 //   location.href = "https://captnwalker.github.io/Portfolio3/portfolio.html";
 // }
+})
 
   $(window).on('load resize', function () {
     if ($(window).width() < 799) {
@@ -38,6 +39,6 @@ Materialize.toast('Click a "Learn More" Button to View My Portfolio | Forwarding
   var container = $('#toast-container');
    window.location.href = 'portfolio.html';
 
-})
+
  
 });
