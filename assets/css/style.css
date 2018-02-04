@@ -67,6 +67,12 @@
     text-shadow: 1.5px 1.5px #0c0c0c;
   }
 
+  .toast {
+    background: #ef5350;
+    font-size: 1em;
+    margin-top: 17px;
+  }
+
   button {
     text-transform:uppercase;
     padding:1em 2em;
