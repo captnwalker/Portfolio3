@@ -1,19 +1,40 @@
 :root {
     --bg-color: rgba(224, 82, 82, 0.7);
     --bg-url:url('../img/paint-1.jpg');
-    /* --bg-url: url('https://image.ibb.co/m56Czw/designer.jpg'); */
+    /* --bg-url: url('../img/designer.jpg'); */
     --button-hover-color: rgba(161, 11, 11, 0.3);
   }
 
   /* OctoCat transformation effect */
-#portrait:hover {
-  /* transform: scale(5.25); */
-  transition: 0.5s;
-  width: 150px;
-  height: 150px;
-  z-index: 500;
+#portrait:hover {  
+    transition: 0.5s;
+    height: 150px;
+    width: 150px;  
+    z-index: 500;
   }
-  
+
+  .connect {
+    height: 35px;
+    width: 35px;  
+  }
+
+  .btn-floating:hover {
+    background-color: goldenrod !important;
+  }
+
+  .e-link:hover {
+    transition: 0.5s;
+    font-size: 1.3em;
+  }
+
+  .container-portfolio {
+    margin-top: 50px;
+  }
+
+  #logo {
+    text-shadow: 1.5px 1.5px #0c0c0c;
+  }
+
   html, body {
     padding:0;
     margin:0;
@@ -26,6 +47,7 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background: #ef5350;
   }
 
   main {
@@ -42,6 +64,7 @@
     font-size: 1.4rem;
     color: #fff;
     white-space: nowrap;
+    text-shadow: 1.5px 1.5px #0c0c0c;
   }
 
   button {
@@ -52,6 +75,8 @@
     background:transparent;
     color:#FFF; 
     border: 0.2rem #FFF solid;
+    box-shadow: 1.5px 1.5px #0c0c0c;
+    text-shadow: 1.5px 1.5px #0c0c0c;
   }
   
   button:hover{
@@ -61,7 +86,7 @@
   }
 
   .nav-wrapper {
-      font-size: 2em;
+    font-size: 2em;
   }
 
   .navBar {
@@ -74,14 +99,14 @@
     width: 100%;
     height: 100%;
     display: flex;
-    oveflow:hidden;
+    overflow:hidden;    
   }
 
   .footer {
     width: 100%;
     height: 100%;
     display: flex;
-    oveflow:hidden;
+    overflow:hidden;
   }
   
   .split {
@@ -101,7 +126,7 @@
   .right {
     --bg-color: rgba(43, 43, 43, 0.8);
     --bg-url:url('../img/pexels-photo-177598.jpeg');
-    /* --bg-url:url('https://image.ibb.co/m3ZbRb/programmer.png'); */
+    /* --bg-url:url('../img/programmer.png'); */
     --button-hover-color: rgba(92, 92, 92, 0.3);
   }
   

@@ -35,37 +35,38 @@
 
 <body>
   <div class="navBar">
-    <nav>
+    <nav class="red lighten-1 z-depth-0">
       <div class="nav-wrapper">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-        <img src="assets/img/slw1.jpg" id="portrait" alt="Steve Walker" class="circle responsive-img" width="50px"> &nbsp;&nbsp;Steve Walker&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Full-Stack Web Dev
+        <img src="assets/img/slw1.jpg" id="portrait" alt="Steve Walker" class="circle responsive-img" width="50px">
+        <span id="logo">&nbsp;&nbsp;Steve Walker&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Full-Stack Web Dev</span>
 
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
             <a href="https://www.linkedin.com/in/stevelwalker/" target="_blank">
-              <img src="assets/img/lin.png" height="50" width="50" alt="LinkedIn">
+              <img class="connect tooltipped" src="assets/img/lin.png" alt="LinkedIn" data-position="bottom" data-delay="50" data-tooltip="LinkedIn Profile">              
             </a>
           </li>
           <li>
             <a href="https://twitter.com/captnwalker" target="_blank">
-              <img src="assets/img/Twitter-icon.png" height="50" width="50" alt="Twitter">
+              <img class="connect tooltipped" src="assets/img/Twitter-icon.png" alt="Twitter" data-position="bottom" data-delay="50" data-tooltip="Twitter Profile">
             </a>
           </li>
           <li>
             <a href="https://github.com/captnwalker" target="_blank">
-              <img src="assets/img/octocat.png" height="50" width="50" alt="GitHub">
+              <img class="connect tooltipped" src="assets/img/octocat.png" alt="GitHub" data-position="bottom" data-delay="50" data-tooltip="Github Portfolio">
             </a>
           </li>
           <li>
             <a href="https://stackoverflow.com/users/8915865/captnwalker" target="_blank">
-              <img src="assets/img/stackoverflow-icon.svg" height="50" width="50" alt="StackOverflow">
+              <img class="connect tooltipped" src="assets/img/stackoverflow-icon.svg" alt="StackOverflow" data-position="bottom" data-delay="50" data-tooltip="StackOverflow Profile">
             </a>
           </li>
           <li>
             <a class="grey-text text-lighten-4 right" href="mailto:steve@stevewalker.us?Subject=Hello,%20I%20viewed%20your%20website%20and%20I%20have%20an%20inquery.&body=Please include as much detail as possible. Thank You for contacting me."
               target="_top">
-              <img src="assets/img/email.png" height="50" width="50" alt="eMail">
+              <img class="connect tooltipped" src="assets/img/email.png" alt="eMail" data-position="bottom" data-delay="50" data-tooltip="eMail">
             </a>
           </li>
           <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -79,47 +80,50 @@
   <!-- Split Screen Body -->
 
   <div class="container">
+
     <div class="split left">
-      <h1>The Designer</h1>
+      <h1 id="logo">The Designer</h1>
       <h5>Client-Side Expertise:
-        <BR> Java Script, Bootstrap, Materialize, CSS, HTML5, PhotoShop</h5>
-          <h5>Steve spent years teaching Photoshop, HTML, CSS and <br>has a passion for photography and World travel.</h5>
+        <BR>Java Script, Bootstrap, Materialize, CSS, HTML5, PhotoShop</h5>
+
+      <h5>Steve spent years teaching Photoshop, HTML, CSS and
+        <br>has a passion for coding, photography and World travel.</h5>
       <a href="portfolio.html">
         <button>Learn More</button>
       </a>
     </div>
 
-
-
     <div class="split right">
-      <h1>The Programmer</h1>
+      <h1 id="logo">The Programmer</h1>
       <h5>Server-Side Expertise:
-        <br> MongoDB, mySQL, Firebase, NODEjs, Express js, React js, API's </h5>
-        
-        <h5>Steve holds a FULL STACK BOOTCAMP certificate from UCF <br>Division of Continuing Education as well as a Master's Degree<br> in Business Administration (MBA).</h5>
+        <br>MongoDB, mySQL, Firebase, NODEjs, Express js, React js, API's</h5>
+
+      <h5>Steve holds a FULL STACK BOOTCAMP certificate from
+        <br> UCF Division of Continuing Education as well as a
+        <br> Master's Degree in Business Administration (MBA).</h5>
       <a href="portfolio.html">
-        <button>Learn More</button>
+        <button id="glow">Learn More</button>
       </a>
     </div>
   </div>
 
   <!-- END Split Screen Body -->
 
-  <footer class="page-footer">
+  <footer class="page-footer red lighten-1">
 
     <!-- <div class="footer-copyright"> -->
     <div class="container">
-      <p> © 2018 Copyright | Steve Walker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <!-- <a class="grey-text text-lighten-4 right" href="mailto:steve@stevewalker.us?Subject=Hello,%20I%20viewed%20your%20website%20and%20I%20have%20an%20inquery.&body=Please include as much detail as possible. Thank You for contacting me."
+      <p> © 2018 Copyright | Steve Walker&nbsp;&nbsp;
+        <a class="e-link" href="mailto:steve@stevewalker.us?Subject=Hello,%20I%20viewed%20your%20website%20and%20I%20have%20an%20inquery.&body=Please include as much detail as possible. Thank You for contacting me."
           target="_top">
-          <strong>eMail</strong> -->
+          <strong>eMail</strong>
         </a>
       </p>
     </div>
     <!-- </div> -->
   </footer>
 
-  <!-- JAVASCRIPT - TMust be final item in <body>. -->
+  <!-- JAVASCRIPT - Must be final item in <body>. -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- Compiled and minified Materialize JavaScript -->
