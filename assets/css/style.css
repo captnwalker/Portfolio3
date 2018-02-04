@@ -73,6 +73,14 @@
     margin-top: 17px;
   }
 
+  #toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 44%;
+  left:30%;
+}
+
+
   button {
     text-transform:uppercase;
     padding:1em 2em;

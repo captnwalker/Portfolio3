@@ -21,6 +21,7 @@ right.addEventListener("mouseleave", () => {
 
 // Display toast instructions; forward to portfolio after 10 seconds
 Materialize.toast('Click a "Learn More" Button to View My Portfolio | Forwarding in 15 seconds', 15000, 'rounded',function() {
-  window.location.href = 'portfolio.html';
-  // Materialize.toast('Welcome to My Portfolio - Please Scroll Down', 10000, 'rounded')
+  var container = $('#toast-container');
+   window.location.href = 'portfolio.html';
+ 
 });
