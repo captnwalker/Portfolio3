@@ -33,11 +33,11 @@ right.addEventListener("mouseleave", () => {
   container.classList.remove("hover-right");
 });
 
-// Display toast instructions; forward to portfolio after 10 seconds
-// Materialize.toast('Click a "Learn More" Button to View My Portfolio | Forwarding in 15 seconds', 15000, 'rounded',function() {
-//   var container = $('#toast-container');
-//    window.location.href = 'portfolio.html';
+//Display toast instructions; forward to portfolio after 10 seconds
+Materialize.toast('Click a "Learn More" Button to View My Portfolio | Forwarding in 15 seconds', 15000, 'rounded',function() {
+  var container = $('#toast-container');
+   window.location.href = 'portfolio.html';
 
-// })
+})
  
 });
