@@ -1,6 +1,13 @@
-// Code to bypass splash page on mobile devices
-if (screen.width <= 699) {
-  location.href = "/search";
+// Collapse menu on small viewports
+$(document).ready(function () {
+  // $(".button-collapse").sideNav();
+  // $('.modal').modal();
+
+});
+
+// Bypass splash page on mobile devices
+if (screen.width <= 799) {
+  location.href = "portfolio.html";
 }
 
 // Control Split Screen
