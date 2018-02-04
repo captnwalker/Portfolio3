@@ -5,7 +5,7 @@
     --button-hover-color: rgba(161, 11, 11, 0.3);
   }
 
-  /* OctoCat transformation effect */
+  /* Headshot transformation effect */
 #portrait:hover {  
     transition: 0.5s;
     height: 150px;
@@ -80,6 +80,10 @@
   left:30%;
 }
 
+a {
+  color: #fff !important;
+  text-decoration: none;
+}
 
   button {
     text-transform:uppercase;
@@ -165,20 +169,19 @@
 }
 
 @media screen and (max-width:768px) {
-}
-
-@media screen and (max-width:640px) {
-}
-
-@media (max-width: 768px) {
-}
-
-/* Adjust size of title on smaller screens */
-@media (max-width: 699px) {
-    #logo {
+  #logo {
       font-size: .6em !important;
     }
     .page-footer {
        font-size: .8em !important;
+    }
+}
+
+5@media (max-width: 699px) {
+    #logo {
+      font-size: .4em !important;
+    }
+    .page-footer {
+       font-size: .6em !important;
     }
 }
