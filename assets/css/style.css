@@ -158,3 +158,24 @@
       flex-direction:column;   
     }
   }
+
+  /* Media Queries */
+
+@media screen and (max-width:980px) {
+}
+
+@media screen and (max-width:768px) {
+}
+
+@media screen and (max-width:640px) {
+}
+
+@media (max-width: 768px) {
+}
+
+/* Adjust size of title on smaller screens */
+@media (max-width: 699px) {
+    #logo {
+      font-size: 1.5em !important;
+    }
+}

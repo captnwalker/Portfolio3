@@ -1,4 +1,9 @@
-// Controld
+// Code to bypass splash page on mobile devices
+if (screen.width <= 699) {
+  location.href = "/search";
+}
+
+// Control Split Screen
 const left = document.querySelector(".left");
 const right = document.querySelector(".right");
 const container = document.querySelector(".container");
