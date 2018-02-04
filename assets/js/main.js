@@ -2,9 +2,15 @@
 $(document).ready(function () {
  
 // Bypass splash page on mobile devices
-if (screen.width <= 799) {
-  location.href = "https://captnwalker.github.io/Portfolio3/portfolio.html";
-}
+// if (screen.width <= 799) {
+//   location.href = "https://captnwalker.github.io/Portfolio3/portfolio.html";
+// }
+
+  $(window).on('load resize', function () {
+    if ($(window).width() < 799) {
+      window.location = "https://captnwalker.github.io/Portfolio3/portfolio.html"
+    }
+  });
 
 // Control Split Screen
 const left = document.querySelector(".left");
