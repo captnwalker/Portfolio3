@@ -68,7 +68,7 @@
   }
 
   .toast {
-    background: #ef5350;
+    background: rgba(239, 83, 80, .3);
     font-size: 1em;
     margin-top: 17px;
   }

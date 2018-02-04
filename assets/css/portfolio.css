@@ -1,0 +1,12 @@
+ .toast {
+    background: rgba(239, 83, 80, .7);
+    font-size: 2em;
+    margin-top: 17px;
+  }
+
+  #toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 44%;
+    left:25%;
+}
