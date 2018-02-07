@@ -6,6 +6,8 @@
 
 [Steve Walker's Portfolio](https://captnwalker.github.io/Portfolio3/ "Portfolio")
 
+[Steve Walker's Portfolio on Heroku](https://stark-eyrie-26631.herokuapp.com/ "Portfolio on Heroku")
+
 ### Screenshots of this Project
 
 ![Portfolio](https://raw.github.com/captnwalker/Portfolio3/master/screenshot/screenshot1.png "Portfolio")
