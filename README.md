@@ -2,11 +2,9 @@
 
 >Showcase of Steve Walker's Projects
 
-### Link to Live Site
+## Link to Live Site
 
 [Steve Walker's Portfolio](https://captnwalker.github.io/Portfolio3/ "Portfolio")
-
-[Steve Walker's Portfolio on Heroku](https://stark-eyrie-26631.herokuapp.com/ "Portfolio on Heroku")
 
 ### Screenshots of this Project
 
@@ -19,12 +17,11 @@
 * CSS
 * JavaScript
 * Materialize
-* Bootstrap
 
 ----
 
 ### Author
 
-* Steve Walker
+* **Steve Walker**  | [LinkedIn](https://www.linkedin.com/in/stevelwalker/)
 
 ![Daftpunktocat-Thomas](https://octodex.github.com/images/daftpunktocat-thomas.gif)
