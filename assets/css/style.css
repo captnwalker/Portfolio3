@@ -6,6 +6,7 @@
 }
 
 /* Headshot transformation effect */
+
 #portrait:hover {
   transition: 0.5s;
   height: 150px;
